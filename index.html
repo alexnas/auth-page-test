@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="contacts">Контакты администратора для связи</div>
+      <div class="auth">
+        <div class="auth-header">
+          <div class="auth-logo">
+            <img src="./smile.png" alt="" />
+          </div>
+          <div class="auth-header-text">
+            <div class="auth-title">Авторизация</div>
+            <div class="auth-subtitle">Авторизуйтесь для работы в панели</div>
+          </div>
+        </div>
+        <form onsubmit="onSubmitJsFunction" class="auth-form">
+          <div class="auth-field">
+            <label for="name">Логин</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              minlength="8"
+              maxlength="30"
+            />
+            <div class="error" for="name">
+              <span>Введите имя пользователя</span>
+            </div>
+          </div>
+          <div class="auth-field">
+            <label for="name">Пароль</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              minlength="8"
+              maxlength="30"
+            />
+            <div class="error" for="name">
+              <span>Введите пароль от аккаунта</span>
+            </div>
+          </div>
+
+          <button type="submit" class="auth-submit-button">Войти</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

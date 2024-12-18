@@ -1,0 +1,99 @@
+html {
+  font-family: Arial, sans-serif;
+  background: #37a0f4;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+}
+
+#app {
+  height: 100vh;
+}
+
+.contacts {
+  padding: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.auth {
+  margin: calc(50vh - 250px) auto;
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.auth-header {
+  display: flex;
+  align-items: center;
+  padding: 5px 5px 0 5px;
+}
+
+.auth-logo {
+  padding-right: 5px;
+}
+
+.auth-logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.auth-header-text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.auth-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.auth-subtitle {
+  font-size: 8px;
+}
+
+.auth-form {
+  background: #fff;
+  min-width: 100%;
+  padding: 10px;
+  border: 2px solid #8bbbe1;
+  border-radius: 5px;
+  color: #37a0f4;
+}
+
+.auth-field {
+  font-size: 9px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.auth-field label,
+.auth-field input,
+.auth-field .error {
+  margin-bottom: 3px;
+}
+
+.auth-field label {
+  font-weight: bold;
+}
+
+.auth-field input {
+  background: #37a0f4;
+  border: 1px solid #37a0f4;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+  padding: 3px 5px;
+}
+
+.auth-submit-button {
+  border: 1px solid #37a0f4;
+  border-radius: 3px;
+  font-size: 10px;
+  color: #37a0f4;
+  padding: 5px;
+}
